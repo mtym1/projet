@@ -38,6 +38,8 @@ function QuizQuestionsList() {
       // update the list of quiz questions after deleting a quiz
     }).catch((error) => {
       console.log(error);
+
+      
     });
   }
 
