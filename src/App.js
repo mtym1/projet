@@ -16,7 +16,7 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
       <div>
-        <nav className="navbar">
+        {/* <nav className="navbar">
           <ul className='nav ul'>
             <li className='nav li '>
               <Link to="/">Home</Link>
@@ -25,7 +25,7 @@ function App() {
                <Link to="/create">Create Quiz</Link>
              </li>
           </ul>
-        </nav>
+        </nav> */}
         <Routes>
         <Route path="/" element={<QuizQuestionsList />} />
         <Route path="/quiz/:id/details" element={<QuizQuestionDetails />} />

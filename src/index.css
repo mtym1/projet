@@ -1,4 +1,4 @@
-nav {
+/* nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -100,4 +100,274 @@ nav li a:hover {
   background-color: black;
   padding: 2px;
   border-radius: 4px;
+} */
+
+body {
+  margin: 0;
+  background-color: #273032;
 }
+
+.home-page {
+  color: white;
+
+  /* right and left */
+  display: flex;
+  flex-direction: row;
+
+}
+
+.learnify-text {
+  text-align: center;
+
+  /* text size */
+  font-weight: bold;
+  font-size: x-large;
+
+  /* space inside learnify text from top */
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 60px;
+  padding-left: 60px;
+
+  margin-bottom: 30px;
+
+  border-bottom: 1px solid white;
+}
+
+.profile-detail>img {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+}
+
+.profile-detail {
+
+  text-align: center;
+}
+
+.profile-detail>.username {
+
+  /* text size */
+  font-weight: normal;
+  font-size: large;
+
+  padding-top: 5px;
+
+}
+
+.profile-detail>.email {
+
+  /* text size */
+  font-weight: lighter;
+  font-size: small;
+
+}
+
+.navigation-buttons {
+  list-style: none;
+}
+
+.navigation-buttons>li>img {
+  padding: 0;
+  width: 30px;
+  margin-right: 16px;
+}
+
+.navigation-buttons>li:nth-child(2)>img {
+  width: 22px;
+  padding: 4px;
+}
+
+.navigation-buttons>li:nth-child(4)>img {
+  width: 22px;
+  padding: 4px;
+}
+
+
+
+.navigation-buttons>li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation-buttons>li>a {
+  display: inline-block;
+  line-height: 30px;
+}
+
+.navigation-buttons>li>a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.right {
+  padding-left: 50px;
+  width: 70%;
+}
+
+.hello-text {
+  margin-top: 50px;
+}
+
+.hello-text>div:nth-child(1) {
+
+  /* text size */
+  font-weight: bold;
+  font-size: x-large;
+
+  padding-top: 5px;
+
+}
+
+.hello-text>div:nth-child(2) {
+
+  /* text size */
+  font-weight: normal;
+  font-size: large;
+
+  opacity: 80%;
+}
+
+
+.three-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  width: 100%;
+  justify-content: space-between;
+}
+
+.three-buttons>div {
+  font-size: x-large;
+  box-shadow: 2px 2px 5px 0px rgba(255, 255, 255, 0.597);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.three-buttons>div:nth-child(1) {
+  margin-top: 50px;
+}
+
+
+.three-buttons>div:nth-child(2) {
+  margin-bottom: 50px;
+}
+
+.three-buttons>div:nth-child(3) {
+  margin-top: 50px;
+}
+
+.performance {
+  text-align: center;
+}
+
+
+.performance>div:nth-child(1) {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.performance>div:nth-child(2) {
+  font-size: larger;
+  font-weight: lighter;
+  opacity: 80%;
+}
+
+* .title {
+  font-weight: bold;
+  font-size: x-large;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+.results-info {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  font-size: larger;
+  font-weight: normal;
+}
+
+.results-info>div>div>span {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.results-info>div>div:nth-child(1) {
+  margin-left: 15px;
+}
+  .results-info>div>div:nth-child(2) {
+  opacity: 80%;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: rgba(83, 83, 83, 0.553);
+  padding: 15px;
+}
+.results-info>div:nth-child(2)>div>span{
+  background-color: rgb(0, 42, 208);
+
+}
+.results-info>div:nth-child(3)>div>span{
+  background-color: rgb(44, 255, 44);
+
+}
+.results-info>div:nth-child(4)>div>span{
+
+  background-color: rgb(249, 76, 76);
+}
+
+.results-info>div:nth-child(2){
+  color: rgb(0, 42, 208);
+}
+.results-info>div:nth-child(3){
+  color:rgb(44, 255, 44);
+}
+.results-info>div:nth-child(4){
+  color: rgb(249, 76, 76);
+}
+
+/* circles */
+.circles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+} 
+ .circles >div{
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.circles >div:nth-child(1){
+  background-color: rgba(0, 42, 208, 0.311);
+}
+.circles >div:nth-child(2){
+  background-color: rgba(44, 255, 44, 0.267);
+
+}
+.circles >div:nth-child(3){
+  background-color: rgba(249, 76, 76, 0.251);
+
+} 
